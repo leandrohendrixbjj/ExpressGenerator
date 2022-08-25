@@ -1,0 +1,15 @@
+Aqui no curso iremos construir nossa aplicação completa, do zero, 
+mas existe uma ferramenta chamada Express Application Generator que já cria 
+um “esqueleto” para aplicações Express. A instalação é realizada via 
+NPM (Node Package Manager ou seja, o Gerenciador de Pacotes do Node). 
+Pode-se usar o parâmetro -g para instalar o pacote globalmente, ou seja, 
+você pode acessá-lo de qualquer lugar do computador.
+
+npm install express-generator -g
+
+Depois da instalação, vá até o local/pasta onde você deseja desenvolver o projeto e escreva a seguinte linha de comando abaixo, 
+indicando express <nome do projeto a ser criado>:
+express olamundo
+
+No terminal, já terá a orientação para navegar até a pasta criada e 
+instalar os pacotes com npm install.
